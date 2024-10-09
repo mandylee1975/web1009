@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        .wrap {
+            width: 1200px;
+            margin: auto;
+
+        }
+
+        /*  body背景色=>#f2e9c6
+            nav背景色=>#795d59
+            nav按鈕色=>#cab29c
+            info背景色=>#a39466
+            footer背景色=>#514133 */
+
+        body {
+            background-color: #f2e9c6;
+        }
+
+        .header {
+            border: 2px solid rgb(139, 37, 19);
+            background-image: url("./img/banner_bg.jpg");
+            width: 1200px;
+            height: 200px;
+            position: relative;
+
+        }
+
+        .header h1 {
+            position: absolute;
+            left: 20px;
+            top: 10px;
+
+        }
+
+        .header ul {
+            position: absolute;
+            right: 20px;
+            top: 50px;
+            list-style: none;
+
+        }
+
+        .header ul li {
+
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .header ul li a {
+            color: #fff;
+        }
+
+        .nav {
+            background-color: #795d59;
+            text-align: center;
+
+        }
+
+        .nav ul {
+
+            list-style: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        .nav ul li {
+            display: inline;
+
+        }
+
+        .nav ul li a {
+            color: #795d59;
+            background-color: #cab29c;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+
+
+        .nav ul li a:hover {
+            background-color: orangered;
+            color: #fff;
+        }
+
+        .content {
+            background-color: #fff;
+            text-align: center;
+            font-size: 20px;
+            line-height: 2;
+        }
+
+        .info {
+            background-color: #a39466;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .info .box {
+            display: inline-block;
+            margin-right: 20px;
+
+        }
+
+        .info .box img {
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+
+        .info .box h3 {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .footer {
+            background-color: #514133;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 一欄式版型 -->
+
+    <div class="wrap">
+
+        <div class="header">
+            <h1>
+                <img src="./img/logo.png" alt="">
+            </h1>
+            <ul>
+                <li><a href="#">註冊</a></li>
+                <li><a href="#">登入</a></li>
+                <li><a href="#">語系</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#">關於我們</a></li>
+                <li><a href="#">最新消息</a></li>
+                <li><a href="#">國內航線</a></li>
+                <li><a href="#">國外航線</a></li>
+                <li><a href="#">聯絡我們</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <p><img src="./img/ad_img.jpg" alt=""></p>
+            <p>旅遊的目的，除了觀賞世界各地的風土人情外</p>
+            <p>最重要的還是豐富自己的眼界</p>
+            <p>踏上旅途的瞬間</p>
+            <p>對於未知的渴望與探索</p>
+            <p>將是人生當中，一段記憶深刻的相遇</p>
+
+        </div>
+
+        <div class="info">
+            <div class="box">
+                <img src="./img/img1.jpg" alt="">
+                <h3>套餐行程1</h3>
+            </div>
+            <div class="box">
+                <img src="./img/img2.jpg" alt="">
+                <h3>套餐行程2</h3>
+            </div>
+            <div class="box">
+                <img src="./img/img3.jpg" alt="">
+                <h3>套餐行程3</h3>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <h2>易遊旅行社</h2>
+            <h4>copyright 2024 &copy;易遊旅行社 版權所有</h4>
+        </div>
+
+</body>
+
+</html>
